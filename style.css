@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(16, 16, 16);
+    color: antiquewhite;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+
+}
+nav ul{
+    list-style: none;
+    
+}
+
+.gameContainer{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(208, 174, 239);
+}
+.info{
+    font-size: 20px;
+}
+
+.gameinfo{
+    padding: 34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgbox img{
+    width: 0;
+    transition: ease-in-out;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 0 23px;
+    padding: 6px 14px;
+    background-color: rgb(236, 57, 155);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
